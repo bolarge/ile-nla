@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import CentralNav from "./components/navigations/CentralNav";
 
 function App() {
-
   return (
-    <>
-    <p>Home</p>
-    </>
-  )
+    <div className="w-full">
+      <CentralNav />
+    </div>
+  );
 }
 
-export default App
+export default App;
