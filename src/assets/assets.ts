@@ -8,6 +8,7 @@ import vegetation from "./vegetation.svg";
 import solarpoweredharvesting from "./soloarpoweredharvesting.svg";
 import tomatoes from "./tomatoes.svg";
 import logo from "./logo.svg";
+import menuicon from "./menuicon.svg"
 
 export const assets = {
   hero: hero,
@@ -20,4 +21,5 @@ export const assets = {
   solarpoweredharvesting: solarpoweredharvesting,
   tomatoes: tomatoes,
   logo: logo,
+  menuicon: menuicon,
 };

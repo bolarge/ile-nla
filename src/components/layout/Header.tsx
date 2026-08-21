@@ -27,7 +27,7 @@ function Header() {
           <p className="text-[20px] font-extrabold">Ile-Nla</p>
         </span>
 
-        <nav className="flex gap-6 text-sm text-black">
+        <nav className="hidden sm:flex gap-6 text-sm text-black">
           <Link to="/" className="hover:text-primary hover:underline">
             Home
           </Link>
@@ -67,9 +67,14 @@ function Header() {
             B2B Buyers Portal
           </HashLink>
         </nav>
-        <button className="bg-primary text-white font-bold rounded-full px-6 py-3">
+        <button className="hidden sm:block bg-primary text-white font-bold rounded-full px-6 py-3">
           Contact Us
         </button>
+        <img
+          src={assets.menuicon}
+          alt="menuicon"
+          className="cursor-pointer sm:hidden"
+        />
       </div>
     </header>
   );
