@@ -9,6 +9,9 @@ import solarpoweredharvesting from "./soloarpoweredharvesting.svg";
 import tomatoes from "./tomatoes.svg";
 import logo from "./logo.svg";
 import menuicon from "./menuicon.svg"
+import precisionagrimony from "./precisonagrimony.svg"
+import quality from "./quality.svg"
+import takeoff from "./takeoff.svg"
 
 export const assets = {
   hero: hero,
@@ -22,4 +25,7 @@ export const assets = {
   tomatoes: tomatoes,
   logo: logo,
   menuicon: menuicon,
+  precisionagrimony: precisionagrimony,
+  quality: quality,
+  takeoff: takeoff,
 };

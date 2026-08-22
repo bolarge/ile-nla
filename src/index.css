@@ -12,7 +12,9 @@
   --color-sub: #6b6355;
   --color-tertiary: #589825;
   --color-milky: #f4efe4;
-  --color-stat:#E4FFA1;
+  --color-stat: #e4ffa1;
+  --color-borderline: #d6cebe;
+  --color-darkgreen:#122E14;
 }
 
 body {
