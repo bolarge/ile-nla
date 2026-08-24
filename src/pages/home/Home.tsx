@@ -3,6 +3,7 @@ import Agrimony from "./components/Agrimony";
 import CommercialCropsandProduce from "./components/CommercialCropsandProduce";
 import CoreValues from "./components/CoreValues";
 import Hero from "./components/Hero";
+import InvestorsandStakeHolder from "./components/InvestorsandStakeHolder";
 import IrrigationSystemFlow from "./components/IrrigationSystemFlow";
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <CommercialCropsandProduce />
       <Agrimony />
       <IrrigationSystemFlow />
+      <InvestorsandStakeHolder />
     </div>
   );
 }

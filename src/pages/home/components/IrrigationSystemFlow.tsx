@@ -76,7 +76,7 @@ const highlights: HighlightCardProps[] = [
 
 function IrrigationSystemFlow() {
   return (
-    <div className="w-full bg-milky py-16">
+    <div className="w-full bg-milky py-16 px-2">
       <div className="max-w-6xl mx-auto flex flex-col gap-8">
         <section className="flex flex-col gap-3 w-full md:w-[40%]">
           <p className="text-sub tracking-widest text-xs font-semibold">
