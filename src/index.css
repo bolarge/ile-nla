@@ -14,7 +14,22 @@
   --color-milky: #f4efe4;
   --color-stat: #e4ffa1;
   --color-borderline: #d6cebe;
-  --color-darkgreen:#122E14;
+  --color-darkgreen: #122e14;
+  --color-texttertia: #a2b0a3;
+  --color-textcat: #4a4a40;
+
+  --animate-slow-zoom: slow-zoom 10s ease-in-out infinite;
+
+  @keyframes slow-zoom {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+  }
 }
 
 body {
