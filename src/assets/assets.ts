@@ -8,10 +8,11 @@ import vegetation from "./vegetation.svg";
 import solarpoweredharvesting from "./soloarpoweredharvesting.svg";
 import tomatoes from "./tomatoes.svg";
 import logo from "./logo.svg";
-import menuicon from "./menuicon.svg"
-import precisionagrimony from "./precisonagrimony.svg"
-import quality from "./quality.svg"
-import takeoff from "./takeoff.svg"
+import menuicon from "./menuicon.svg";
+import precisionagrimony from "./precisonagrimony.svg";
+import quality from "./quality.svg";
+import takeoff from "./takeoff.svg";
+import agrimony from "./agrimony.jpg";
 
 export const assets = {
   hero: hero,
@@ -28,4 +29,5 @@ export const assets = {
   precisionagrimony: precisionagrimony,
   quality: quality,
   takeoff: takeoff,
+  agrimony: agrimony,
 };
