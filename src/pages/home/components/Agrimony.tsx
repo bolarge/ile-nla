@@ -2,7 +2,10 @@ import { assets } from "../../../assets/assets";
 
 function Agrimony() {
   return (
-    <div className="relative w-full h-85 overflow-hidden">
+    <div
+      id="agtech-operations"
+      className="relative w-full h-85 overflow-hidden"
+    >
       <img
         src={assets.agrimony}
         alt="Agronomy"

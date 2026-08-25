@@ -3,7 +3,7 @@ import VisionandMission from "./VisionandMission";
 
 function AboutUs() {
   return (
-    <div className="w-full bg-primary py-24 px-2">
+    <div id="about-us" className="w-full bg-primary py-24 px-2">
       <div className="max-w-6xl mx-auto flex flex-col gap-8">
         <section className="flex flex-col gap-1.5">
           <p className="text-stat tracking-widest text-xs font-semibold">

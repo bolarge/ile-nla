@@ -46,7 +46,10 @@ function B2bBuyerPortal() {
   };
 
   return (
-    <div className="w-full bg-primary py-24 px-4 sm:px-2">
+    <div
+      id="b2b-buyers-portal"
+      className="w-full bg-primary py-24 px-4 sm:px-2"
+    >
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8">
         <section className="flex flex-col justify-between">
           <div className="flex flex-col gap-3">

@@ -36,7 +36,7 @@ const investorMetrics: MetricRowProps[] = [
 
 function InvestorsandStakeHolder() {
   return (
-    <div className="w-full bg-white py-16 md:py-16 px-2">
+    <div id="investors" className="w-full bg-white py-16 md:py-16 px-2">
       <div className="max-w-6xl mx-auto flex flex-col gap-8">
         <section className="flex flex-col gap-4">
           <p className="text-sub tracking-widest text-xs font-semibold">
