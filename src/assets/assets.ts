@@ -13,6 +13,8 @@ import precisionagrimony from "./precisonagrimony.svg";
 import quality from "./quality.svg";
 import takeoff from "./takeoff.svg";
 import agrimony from "./agrimony.jpg";
+import hq from "./headquarter.svg";
+import farmlocation from "./farmlocation.svg";
 
 export const assets = {
   hero: hero,
@@ -30,4 +32,6 @@ export const assets = {
   quality: quality,
   takeoff: takeoff,
   agrimony: agrimony,
+  hq: hq,
+  farmlocation: farmlocation,
 };
