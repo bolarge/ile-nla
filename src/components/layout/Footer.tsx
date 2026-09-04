@@ -40,7 +40,7 @@ const legalLinks = [
 
 function Footer() {
   return (
-    <div className="w-full h-200 relative overflow-hidden">
+    <div className="w-full h-auto sm:h-200 relative overflow-hidden">
       <img
         src={assets.vegetation}
         alt="vegetation"
@@ -48,7 +48,7 @@ function Footer() {
       />
       <div className="absolute inset-0 bg-linear-to-b from-white from-0% via-white/80 via-60% to-white/15 to-85%" />
 
-      <div className="relative z-10 h-full flex flex-col justify-between px-4 py-12">
+      <div className="relative z-10 h-full flex gap-3 flex-col justify-between px-4 py-12">
         <section className="flex flex-col items-center text-center gap-6 max-w-2xl mx-auto pt-6">
           <p className="text-darkgreen font-extrabold text-2xl sm:text-3xl md:text-[36px] leading-tight">
             Secure Your Produce Supply via Sustainable Sourcing
@@ -84,7 +84,7 @@ function Footer() {
           </div>
         </section>
 
-        <section className="flex flex-col sm:flex-row items-center justify-between gap-3 max-w-6xl mx-auto w-full text-xs text-white/90">
+        <section className="flex pt-2.5 sm:pt-0 flex-col sm:flex-row items-center justify-between gap-3 max-w-6xl mx-auto w-full text-xs text-white/90">
           <p>© 2026 Ile-Nla. All rights reserved. RC: XXXXXXX</p>
           <div className="flex items-center gap-6">
             {legalLinks.map((link) => (
