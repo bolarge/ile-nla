@@ -15,6 +15,10 @@ import takeoff from "./takeoff.svg";
 import agrimony from "./agrimony.jpg";
 import hq from "./headquarter.svg";
 import farmlocation from "./farmlocation.svg";
+import waterdrop from "./waterdrop.svg";
+import biodiversity from "./biodiversity.svg";
+import zerogrid from "./zerogrid.svg";
+import sustainableagric from "./sustainableagric.svg";
 
 export const assets = {
   hero: hero,
@@ -34,4 +38,8 @@ export const assets = {
   agrimony: agrimony,
   hq: hq,
   farmlocation: farmlocation,
+  waterdrop: waterdrop,
+  biodiversity: biodiversity,
+  zerogrid: zerogrid,
+  sustainableagric: sustainableagric,
 };

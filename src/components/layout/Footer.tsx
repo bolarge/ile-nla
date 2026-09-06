@@ -35,7 +35,7 @@ const businessLinks = [
 const legalLinks = [
   { title: "Privacy Policy", path: "/privacy-policy" },
   { title: "Terms of Supply", path: "/terms-of-supply" },
-  { title: "Sustainability Statement", path: "" },
+  { title: "Sustainability Statement", path: "/sustainability-statement" },
 ];
 
 function Footer() {

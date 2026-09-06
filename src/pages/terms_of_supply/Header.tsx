@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="w-full h-142 bg-primary flex items-center">
+    <div className="w-full h-142 sm:h-150 bg-primary flex items-center">
       <div className="max-w-6xl mx-auto flex flex-col gap-3 w-full px-2">
         <p className="text-stat tracking-widest text-xs font-semibold">
           LEGAL FRAMEWORK
