@@ -33,9 +33,9 @@ const businessLinks = [
 ];
 
 const legalLinks = [
-  "Privacy Policy",
-  "Terms of Supply",
-  "Sustainability Statement",
+  { title: "Privacy Policy", path: "/privacy-policy" },
+  { title: "Terms of Supply", path: "" },
+  { title: "Sustainability Statement", path: "" },
 ];
 
 function Footer() {
@@ -89,11 +89,11 @@ function Footer() {
           <div className="flex items-center gap-6">
             {legalLinks.map((link) => (
               <a
-                key={link}
-                href="#"
-                className="hover:text-darkgreen transition"
+                key={link.title}
+                href={link.path}
+                className="hover:underline transition"
               >
-                {link}
+                {link.title}
               </a>
             ))}
           </div>
